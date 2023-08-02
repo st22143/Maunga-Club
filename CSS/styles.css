@@ -8,8 +8,8 @@
 }
 
 /*header {
-    background-color: rgba(195, 195, 195, 0.518);
-} */
+    background-color: rgba(25, 25, 25, 0.518);
+}*/ 
 
 #cabin {
 
@@ -78,6 +78,7 @@ nav li a {
     width: 300px;
     border-color: white;
     /*background-color:  rgba(195, 195, 195, 0.518); */
+    padding:10px;
 }
 
 .subsection {
