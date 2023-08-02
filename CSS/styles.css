@@ -7,6 +7,10 @@
 
 }
 
+/*header {
+    background-color: rgba(195, 195, 195, 0.518);
+} */
+
 #cabin {
 
     background: url(../Images/cabin_exterior.jpg)
@@ -25,8 +29,10 @@
 
 .logo {
     width: 400px;
-    height: 160px;
-    padding: 5px 50px;
+    height: 130px;
+    float:left;
+    padding: 15px 15px;
+
 }
 
 nav {
@@ -34,21 +40,50 @@ nav {
     padding:50px 50px;
 }
 
-nav li {
+li {
     display: inline-block;
 }
 
 nav li a {
     font-size: 50px;
     color: white;
-    padding: 14px 16px;
+    padding: 20px;
     text-decoration: none;
     
 }
 
 #heading {
     color: white;
-    font-size:150px;
+    font-size: 125px;
     text-align: center;
 }
 
+#headingbox {
+    padding-top:250px;
+}
+
+#subheading {
+    color: white;
+    font-size:50px;
+    text-align: center;
+}
+
+#text {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#subbox {
+    width: 300px;
+    border-color: white;
+    /*background-color:  rgba(195, 195, 195, 0.518); */
+}
+
+#subsection {
+    padding: 150px;
+    
+}
+section {
+    text-align: center;
+}
