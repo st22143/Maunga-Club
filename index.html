@@ -7,6 +7,22 @@
     <title> Maunga Club </title>
     <link rel="stylesheet" href="CSS/styles.css">
 
+    <script>
+
+        function cabin_popup() {
+            document.getElementById("cabinframe").style.backgroundColor = "rgba(195, 195, 195, 0.518)";
+        }
+
+        function information_popup() {
+            document.getElementById("informationframe").style.backgroundColor = "rgba(195, 195, 195, 0.518)";
+        }
+
+        function skiing_popup() {
+            document.getElementById("skiingframe").style.backgroundColor = "rgba(195, 195, 195, 0.518)";
+        }
+
+    </script>
+
 </head>
     
 <body>
@@ -40,7 +56,7 @@
 
         <section>
 
-            <li class="subsection"> <div class="subbox" > <!-- About The Maunga Club-->
+            <li class="subsection"> <div class="subbox" id="informationframe" onmouseenter="information_popup()"> <!-- About The Maunga Club-->
     
                 <h2 class="subheading"> Information </h2>
     
@@ -49,7 +65,7 @@
     
             </div> </li> 
 
-            <li class="subsection"> <div class="subbox">
+            <li class="subsection"> <div class="subbox" id="skiingframe" onmouseenter="skiing_popup()">
 
                 <h2 class="subheading"> Skiing </h2>
 
@@ -58,7 +74,7 @@
 
             </div> </li>
 
-            <li class="subsection"> <div class="subbox">
+            <li class="subsection"> <div class="subbox" id="cabinframe" onmouseenter="cabin_popup()">
 
                 <h2 class="subheading"> Cabins </h2>
 
