@@ -1,0 +1,54 @@
+#main {
+
+    background: url(../Images/Cabin.jpg)
+    no-repeat center;
+    background-size: cover;
+    padding: inherit;
+
+}
+
+#cabin {
+
+    background: url(../Images/cabin_exterior.jpg)
+    no-repeat center;
+    background-size: cover;
+    padding: inherit;
+}
+
+#landscape {
+
+    background: url(../Images/mountain_view_1.jpg)
+    no-repeat center;
+    background-size: cover;
+    padding: inherit;
+}
+
+.logo {
+    width: 400px;
+    height: 160px;
+    padding: 5px 50px;
+}
+
+nav {
+    float:right;
+    padding:50px 50px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    font-size: 50px;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+#heading {
+    color: white;
+    font-size:150px;
+    text-align: center;
+}
+
