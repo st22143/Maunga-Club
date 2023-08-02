@@ -52,35 +52,35 @@ nav li a {
     
 }
 
-#heading {
+.heading {
     color: white;
     font-size: 125px;
     text-align: center;
 }
 
-#headingbox {
+.headingbox {
     padding-top:250px;
 }
 
-#subheading {
+.subheading {
     color: white;
     font-size:50px;
     text-align: center;
 }
 
-#text {
+.text {
     color: white;
     font-size: 20px;
     text-align: center;
 }
 
-#subbox {
+.subbox {
     width: 300px;
     border-color: white;
     /*background-color:  rgba(195, 195, 195, 0.518); */
 }
 
-#subsection {
+.subsection {
     padding: 150px;
     
 }
