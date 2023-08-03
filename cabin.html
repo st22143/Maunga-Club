@@ -6,6 +6,7 @@
 
     <title> The Cabins </title>
     <link rel="stylesheet" href="CSS/styles.css">
+    <script src="Javascript/scripts.js"> </script>
 
 </head>
     
@@ -29,17 +30,42 @@
     
         </header>
 
-        <div> <!-- Introduction/Individual Page Navigation-->
+        <div class="headingbox"> <!-- Introduction/Individual Page Navigation-->
             
             <h1 class="heading"> Cabins </h1>
 
         </div>
 
-        <div> <!-- About The Maunga Club-->
+        <section>
 
+            <li> <div class="subbox" id="informationframe" onmouseenter="information_popup()" onmouseleave="undo_information()"> <!-- About The Maunga Club-->
+    
+                <h2 class="subheading"> Information </h2>
+    
+                <p class="text"> Joining the Maunga Club comes with many benefits which can be shared among your family as well. 
+                    Come join us and have an amazing experience in the snow! </p>
+    
+            </div> </li> 
 
+            <li> <div class="subbox" id="skiingframe" onmouseenter="skiing_popup()" onmouseleave="undo_skiing()">
 
-        </div>
+                <h2 class="subheading"> Skiing </h2>
+
+                <p class="text"> There are many fun activities to choose from. A visitor's favourite is skiing across the ravishing 
+                    landscape filled with a cloudless sky and the whitest snow you'll ever come by. </p>
+
+            </div> </li>
+
+            <a href="cabin.html"> <li> <div class="subbox" id="cabinframe" onmouseenter="cabin_popup()" onmouseleave="undo_cabin()">
+
+                <h2 class="subheading"> Cabins </h2>
+
+                <p class="text"> Need a place to stay? Well if you join the Maunga Club you'll be given a variety of cabins to choose 
+                    from which best suits what you need. </p>
+
+            </div> </li> </a>
+
+        </section>
 
     </section>
 
