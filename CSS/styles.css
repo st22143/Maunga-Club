@@ -31,13 +31,13 @@
     width: 400px;
     height: 130px;
     float:left;
-    padding: 15px 15px;
+    padding: 3vh 3vh;
 
 }
 
 nav {
     float:right;
-    padding:50px 50px;
+    padding:5vh 5vh;
 }
 
 li {
@@ -45,46 +45,45 @@ li {
 }
 
 nav li a {
-    font-size: 50px;
+    font-size: 5vh;
     color: white;
-    padding: 20px;
+    padding: 1vh;
     text-decoration: none;
     
 }
 
 .heading {
     color: white;
-    font-size: 125px;
+    font-size: 7.5vh;
     text-align: center;
+    background-color: rgba(25, 25, 25, 0.518);
 }
 
 .headingbox {
-    padding-top:250px;
+    padding-top: 50vh;
+    padding-bottom: 50vh;
 }
 
 .subheading {
     color: white;
-    font-size:50px;
+    font-size: 6vh;
     text-align: center;
 }
 
 .text {
     color: white;
-    font-size: 20px;
+    font-size: 3vh;
     text-align: center;
 }
 
 .subbox {
-    width: 300px;
+    width: 30vh;
     border-color: white;
     /*background-color:  rgba(195, 195, 195, 0.518); */
-    padding:10px;
+    padding:10vh;
 }
 
-.subsection {
-    padding: 150px;
-    
-}
+
 section {
     text-align: center;
 }

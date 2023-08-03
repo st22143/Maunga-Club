@@ -6,34 +6,7 @@
 
     <title> Maunga Club </title>
     <link rel="stylesheet" href="CSS/styles.css">
-
-    <script>
-
-        function cabin_popup() {
-            document.getElementById("cabinframe").style.backgroundColor = "rgba(25, 25, 25, 0.518)";
-        }
-
-        function information_popup() {
-            document.getElementById("informationframe").style.backgroundColor = "rgba(25, 25, 25, 0.518)";
-        }
-
-        function skiing_popup() {
-            document.getElementById("skiingframe").style.backgroundColor = "rgba(25, 25, 25, 0.518)";
-        }
-
-        function undo_cabin() {
-            document.getElementById("cabinframe").style.backgroundColor = "";
-        }
-
-        function undo_information() {
-            document.getElementById("informationframe").style.backgroundColor = "";
-        }
-
-        function undo_skiing() {
-            document.getElementById("skiingframe").style.backgroundColor = "";
-        }
-
-    </script>
+    <script src="Javascript/scripts.js"> </script>
 
 </head>
     
@@ -68,7 +41,7 @@
 
         <section>
 
-            <li class="subsection"> <div class="subbox" id="informationframe" onmouseenter="information_popup()" onmouseleave="undo_information()"> <!-- About The Maunga Club-->
+            <li> <div class="subbox" id="informationframe" onmouseenter="information_popup()" onmouseleave="undo_information()"> <!-- About The Maunga Club-->
     
                 <h2 class="subheading"> Information </h2>
     
@@ -77,7 +50,7 @@
     
             </div> </li> 
 
-            <li class="subsection"> <div class="subbox" id="skiingframe" onmouseenter="skiing_popup()" onmouseleave="undo_skiing()">
+            <li> <div class="subbox" id="skiingframe" onmouseenter="skiing_popup()" onmouseleave="undo_skiing()">
 
                 <h2 class="subheading"> Skiing </h2>
 
@@ -86,7 +59,7 @@
 
             </div> </li>
 
-            <a href="cabin.html"> <li class="subsection"> <div class="subbox" id="cabinframe" onmouseenter="cabin_popup()" onmouseleave="undo_cabin()">
+            <a href="cabin.html"> <li> <div class="subbox" id="cabinframe" onmouseenter="cabin_popup()" onmouseleave="undo_cabin()">
 
                 <h2 class="subheading"> Cabins </h2>
 
