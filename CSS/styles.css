@@ -78,7 +78,7 @@ nav li a {
 
 .subbox {
     width: 30vh;
-    border-color: white;
+    border: 1vh white;
     /*background-color:  rgba(195, 195, 195, 0.518); */
     padding:10vh;
 }
@@ -86,4 +86,20 @@ nav li a {
 
 section {
     text-align: center;
+}
+
+#subsection {
+    padding-bottom: 30vh;
+}
+
+th, td { 
+    color:white;
+}
+
+table {
+    border:1vh solid white;
+}
+
+#cabininformation {
+    background-color: rgba(25, 25, 25, 0.518);
 }
