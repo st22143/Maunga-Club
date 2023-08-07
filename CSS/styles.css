@@ -28,8 +28,8 @@
 }
 
 .logo {
-    width: 400px;
-    height: 130px;
+    width: 60vh;
+    height: 20vh;
     float:left;
     padding: 3vh 3vh;
 
@@ -37,7 +37,7 @@
 
 nav {
     float:right;
-    padding:5vh 5vh;
+    padding:10vh 12.5vh;
 }
 
 li {
@@ -45,7 +45,7 @@ li {
 }
 
 nav li a {
-    font-size: 5vh;
+    font-size: 6vh;
     color: white;
     padding: 1vh;
     text-decoration: none;
@@ -101,5 +101,15 @@ table {
 }
 
 #cabininformation {
+    background-color: rgba(25, 25, 25, 0.518);
+}
+
+
+p{
+    color:white;
+}
+
+header{
+    height:25vh;
     background-color: rgba(25, 25, 25, 0.518);
 }
