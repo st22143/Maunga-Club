@@ -1,5 +1,38 @@
+#background {
+    background: url(..//Images/Dark.jpg)
+    no-repeat center;
+    background-size: cover;
+    padding:inherit;
+}
+
+#details{
+    padding-top:50vh;
+    
+}
+
+form {
+    overflow: hidden;
+}
+
 label{
     color:white;
+    float:left;
+    padding-right: 5vh;
+    width:30vh;
+}
+
+input{
+    float:left;
+    width:calc(100%-15vh);
+
+}
+
+button{
+    float:left;
+}
+
+#information{
+    height: 10vh;
 }
 
 .logo {
@@ -12,7 +45,7 @@ label{
 
 nav {
     float:right;
-    padding:5vh 5vh;
+    padding:10vh 5vh;
 }
 
 li {
@@ -20,9 +53,9 @@ li {
 }
 
 nav li a {
-    font-size: 5vh;
+    font-size: 6vh;
     color: white;
-    padding: 1vh;
+    padding: 3vh;
     text-decoration: none;
     
 }
@@ -31,9 +64,5 @@ nav li a {
     color: white;
     font-size: 7.5vh;
     text-align: center;
-    background-color: rgba(25, 25, 25, 0.518);
-}
-
-div {
     background-color: rgba(25, 25, 25, 0.518);
 }

@@ -10,11 +10,9 @@
 
 </head>
     
-<body>
-
+<body id="background">
     
-    
-    <section id="main">
+    <section>
         
         <header> 
     
@@ -30,13 +28,25 @@
     
         </header>
 
-        <div> <!-- Login details-->
-            
-            <label for="name"> Name: </label>
-            <input type="text" id="name" name="name"><br><br>
-            <label for="address"> Address: </label>
-            <input type="text" id="address" name="address"><br><br>
-            <label for="proof"> Send proof </label>
+
+        <div id="details">
+
+            <form>  <!-- Login details-->
+
+                <label for="name"> Name: </label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="address"> Address: </label>
+                <input type="text" id="address" name="address"><br><br>
+                <label for="addressproof"> Proof Of Address:  </label>
+                <input type="file" id="addressproof" name="addressproof"><br><br>
+                <label for="idproof"> Proof Of ID:  </label>
+                <input type="file" id="idproof" name="idproof"><br><br><br>
+                <label for="information"> Extra information:  </label>
+                <input type="text" id="information" name="information"><br><br><br><br>
+                
+                <input type="submit">
+
+            </form>   
 
         </div>
 
