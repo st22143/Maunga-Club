@@ -96,8 +96,12 @@ th, td {
     color:white;
 }
 
+table, th, td {
+    border:0.5vh solid white;
+}
+
 table {
-    border:1vh solid white;
+    padding:5vh;
 }
 
 #cabininformation {
