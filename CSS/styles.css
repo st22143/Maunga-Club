@@ -7,9 +7,6 @@
 
 }
 
-/*header {
-    background-color: rgba(25, 25, 25, 0.518);
-}*/ 
 
 #cabin {
 
@@ -25,6 +22,10 @@
     no-repeat center;
     background-size: cover;
     padding: inherit;
+}
+
+body{
+    margin:0px;
 }
 
 .logo {
@@ -97,7 +98,9 @@ th, td {
 }
 
 table, th, td {
-    border:0.5vh solid white;
+    border:0.4vh solid white;
+    border-collapse: collapse;
+    padding:1vh;
 }
 
 table {
