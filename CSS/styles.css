@@ -8,13 +8,6 @@
 }
 
 
-#cabin {
-
-    background: url(../Images/cabin_exterior.jpg)
-    no-repeat center;
-    background-size: cover;
-    padding: inherit;
-}
 
 #landscape {
 
@@ -43,6 +36,7 @@ nav {
 
 li {
     display: inline-block;
+    color:white;
 }
 
 nav li a {
@@ -53,12 +47,19 @@ nav li a {
     
 }
 
-.heading {
+li{
+    font-size: 5vh;
+}
+
+h1 {
     color: white;
     font-size: 7.5vh;
     text-align: center;
     background-color: rgba(25, 25, 25, 0.518);
+    border:0.4vh solid white;
 }
+
+
 
 .headingbox {
     padding-top: 50vh;
@@ -79,8 +80,8 @@ nav li a {
 
 .subbox {
     width: 30vh;
-    border: 1vh white;
-    /*background-color:  rgba(195, 195, 195, 0.518); */
+    /*border:0.4vh solid white;
+    background-color:  rgba(195, 195, 195, 0.518); */
     padding:10vh;
 }
 
@@ -120,5 +121,33 @@ p{
 header{
     height:25vh;
     background-color: rgba(25, 25, 25, 0.518);
+    border:0.4vh solid white;
+}
 
+.images{
+    width:20vh;
+    height:20vh;
+}
+
+#kakapo {
+
+    background: url(../Images/Kakapo.jpg)
+    no-repeat center;
+    background-size: cover;
+    padding: inherit;
+}
+
+#pukeko{
+    background: url(../Images/Pukeko.jpg)
+    no-repeat center;
+    background-size: cover;
+    padding: inherit;
+}
+
+#keruru{
+    background: url(../Images/Keruru.jpg)
+    no-repeat center;
+    background-size: cover;
+    padding: inherit;
+    
 }
