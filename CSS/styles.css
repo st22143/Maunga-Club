@@ -22,16 +22,16 @@ body{
 }
 
 .logo {
-    width: 60vh;
-    height: 20vh;
+    width: 30vh;
+    height: 10vh;
     float:left;
-    padding: 3vh 3vh;
+    padding: 2vh 3vh;
 
 }
 
 nav {
     float:right;
-    padding:10vh 5vh;
+    padding:4vh 5vh;
 }
 
 li {
@@ -56,7 +56,8 @@ h1 {
     font-size: 7.5vh;
     text-align: center;
     background-color: rgba(25, 25, 25, 0.518);
-    border:0.4vh solid white;
+    border-top:0.4vh solid white;
+    border-bottom:0.4vh solid white;
 }
 
 
@@ -119,9 +120,9 @@ p{
 }
 
 header{
-    height:25vh;
-    background-color: rgba(25, 25, 25, 0.518);
-    border:0.4vh solid white;
+    height:12.5vh;
+    background-color: rgb(34, 34, 42);
+    border-bottom:0.4vh solid white;
 }
 
 .images{
@@ -149,5 +150,48 @@ header{
     no-repeat center;
     background-size: cover;
     padding: inherit;
-    
+
 }
+
+.dropbtn {
+    color: white;
+    background-color: rgb(34, 34, 42);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .drop {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .content {
+    display: none;
+    position: absolute;
+    background-color: rgb(34, 34, 42);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .drop:hover .content {display: block;}
+
+  #kakapotab{
+    display:block;
+  }
+
+  #pukekotab{
+    display:none;
+  }
+
+  #kerurutab{
+    display:none;
+  }

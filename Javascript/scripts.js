@@ -21,3 +21,21 @@ function undo_information() {
 function undo_skiing() {
     document.getElementById("skiingframe").style.backgroundColor = "";
 }
+
+function openkakapo() {
+    document.getElementById("kakapotab").style.display = "block";
+    document.getElementById("pukekotab").style.display = "none";
+    document.getElementById("kerurutab").style.display = "none";
+}
+
+function openpukeko() {
+    document.getElementById("kakapotab").style.display = "none";
+    document.getElementById("pukekotab").style.display = "block";
+    document.getElementById("kerurutab").style.display = "none";
+}
+
+function openkereru() {
+    document.getElementById("kakapotab").style.display = "none";
+    document.getElementById("pukekotab").style.display = "none";
+    document.getElementById("kerurutab").style.display = "block";
+}
