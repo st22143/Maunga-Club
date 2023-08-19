@@ -39,3 +39,5 @@ function openkereru() {
     document.getElementById("pukekotab").style.display = "none";
     document.getElementById("kerurutab").style.display = "block";
 }
+
+
