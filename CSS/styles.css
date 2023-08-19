@@ -1,7 +1,5 @@
 #main {
-
-    background: url(../Images/Cabin.jpg)
-    no-repeat center;
+    background: url(../Images/Cabin.jpg) no-repeat center;
     background-size: cover;
     padding: inherit;
 
@@ -10,9 +8,7 @@
 
 
 #landscape {
-
-    background: url(../Images/mountain_view_1.jpg)
-    no-repeat center;
+    background: url(../Images/MountainView.jpg) no-repeat center;
     background-size: cover;
     padding: inherit;
 }
@@ -26,7 +22,6 @@ body{
     height: 10vh;
     float:left;
     padding: 2vh 3vh;
-
 }
 
 nav {
@@ -44,7 +39,6 @@ nav li a {
     color: white;
     padding: 3vh;
     text-decoration: none;
-    
 }
 
 li{
@@ -59,8 +53,6 @@ h1 {
     border-top:0.4vh solid white;
     border-bottom:0.4vh solid white;
 }
-
-
 
 .headingbox {
     padding-top: 50vh;
@@ -95,26 +87,6 @@ section {
     padding-bottom: 30vh;
 }
 
-th, td { 
-    color:white;
-}
-
-table, th, td {
-    border:0.4vh solid white;
-    border-collapse: collapse;
-    padding:1vh;
-}
-
-table {
-    padding:5vh;
-}
-
-#cabininformation {
-    background-color: rgba(25, 25, 25, 0.518);
-    padding:5vh;
-}
-
-
 p{
     color:white;
 }
@@ -126,33 +98,7 @@ header{
     
 }
 
-.images{
-    width:20vh;
-    height:20vh;
-}
 
-#kakapo {
-
-    background: url(../Images/Kakapo.jpg)
-    no-repeat center;
-    background-size: cover;
-    padding: inherit;
-}
-
-#pukeko{
-    background: url(../Images/Pukeko.jpg)
-    no-repeat center;
-    background-size: cover;
-    padding: inherit;
-}
-
-#keruru{
-    background: url(../Images/Keruru.jpg)
-    no-repeat center;
-    background-size: cover;
-    padding: inherit;
-
-}
 
 button {
     color: white;
@@ -163,8 +109,6 @@ button {
 }
 
 button:hover {background-color: rgb(52, 52, 57);}
-button:focus {background-color:  rgb(52, 52, 57);}
-
   
 .drop {
     position: relative;
@@ -189,26 +133,4 @@ button:focus {background-color:  rgb(52, 52, 57);}
     
 .drop:hover .content {display: block;}
     
-#kakapotab{
-    display:block;
-}
-    
-#pukekotab{
-    display:none;
-}
-    
-#kerurutab{
-    display:none;
-}
-    
-#tabbutton{
-    position: fixed;
-    bottom:2%;
-    left:1%;
-    background-color: rgb(34, 34, 42);
-    box-shadow: 0.8vh 0.8vh  rgb(88, 88, 91);
-}
-
-div img{
-    border: 0.4vh solid white;
-}
+nav li:hover a{background-color: rgb(52, 52, 57);}

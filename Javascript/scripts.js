@@ -41,3 +41,35 @@ function openkereru() {
 }
 
 
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    var Image1 = document.getElementById("kakapoimage1");
+    var Image2 = document.getElementById("kakapoimage2");
+    var Image3 = document.getElementById("kakapoimage3");
+
+    let images = [Image1, Image2, Image3];
+
+    if (Image1 && Image2 && Image3) {
+        Image1.style.display = "block";
+        Image2.style.display = "none";
+        Image3.style.display = "none";
+        number = 0;
+
+        setInterval(function(){
+            
+            for(i=0; i<=2; i++) {
+                images[i].style.display = "none";
+            }
+            
+            number++;
+
+            images[number].style.display = "block"; 
+
+            if(number>=2) {
+                number=-1;
+            }}, 
+            3000);
+        }
+
+});
