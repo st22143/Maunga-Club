@@ -26,18 +26,21 @@ function openkakapo() {
     document.getElementById("kakapotab").style.display = "block";
     document.getElementById("pukekotab").style.display = "none";
     document.getElementById("kerurutab").style.display = "none";
+    document.getElementById("info").textContent = "Kakapo";
 }
 
 function openpukeko() {
     document.getElementById("kakapotab").style.display = "none";
     document.getElementById("pukekotab").style.display = "block";
     document.getElementById("kerurutab").style.display = "none";
+    document.getElementById("info").textContent = "Pukeko";
 }
 
 function openkereru() {
     document.getElementById("kakapotab").style.display = "none";
     document.getElementById("pukekotab").style.display = "none";
     document.getElementById("kerurutab").style.display = "block";
+    document.getElementById("info").textContent = "Keruru";
 }
 
 
