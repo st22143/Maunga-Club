@@ -29,10 +29,7 @@ button:focus {background-color:  rgb(52, 52, 57);}
     display:block;
 }
 
-.details{
-    padding-left:2vh;
-    float:left;
-}
+
 
 p{
     size:0.2vh;
@@ -62,8 +59,41 @@ p{
     box-shadow: 0.8vh 0.8vh  rgb(88, 88, 91);
 }
 
+
 div img{
     border: 0.4vh solid white;
     transition: 0.3s;
 }
 
+
+.tabs{
+    padding-bottom: 50vh;
+}
+
+#details{
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 10vh; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+#content{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 2vh;
+    border: 1vh solid rgb(34, 34, 42);
+    width: 80%;
+}
+
+#details_button{
+    position: fixed;
+    bottom:2%;
+    right:1%;
+    background-color: rgb(34, 34, 42);
+    box-shadow: 0.8vh 0.8vh  rgb(88, 88, 91);
+}

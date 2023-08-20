@@ -41,6 +41,8 @@ nav li a {
     text-decoration: none;
 }
 
+
+
 li{
     font-size: 5vh;
 }
@@ -134,3 +136,4 @@ button:hover {background-color: rgb(52, 52, 57);}
 .drop:hover .content {display: block;}
     
 nav li:hover a{background-color: rgb(52, 52, 57);}
+
