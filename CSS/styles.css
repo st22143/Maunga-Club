@@ -22,11 +22,15 @@ body{
     height: 10vh;
     float:left;
     padding: 2vh 3vh;
+    display: none;
+
 }
 
 nav {
     float:right;
     padding:4vh 5vh;
+    display: none;
+    align-items: center;
 }
 
 li {
@@ -116,6 +120,8 @@ button:focus {background-color: rgb(52, 52, 57);}
     position: relative;
     display: inline-block;
 }
+
+
     
 .content {
     display: none;

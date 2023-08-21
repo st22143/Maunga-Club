@@ -31,10 +31,14 @@
 
 
 
-p{
-    size:0.2vh;
+h2{
+    font-size:10vh;
+    color:white;
 }
 
+p{
+    font-size: 5vh;
+}
 
 
 #pukekotab{
@@ -83,11 +87,20 @@ div img{
 }
 
 #content{
+    position:relative;
     background-color: rgb(34, 34, 42);
     margin: auto;
     padding: 2vh;
     border: 5vh white;
     width: 80%;
+}
+
+#exit_details{
+    position:absolute;
+    font-size: 10vh;
+    color:white;
+    top:0%;
+    right:1%;
 }
 
 #details_button{
@@ -101,4 +114,15 @@ div img{
 img{
     width:95%;
     height:90%;
+}
+
+#description {
+    position:absolute;
+    top:45%;   
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(25, 25, 25, 0.518);
+    padding:0 20vh;
+    border:0.4vh solid white;
 }
