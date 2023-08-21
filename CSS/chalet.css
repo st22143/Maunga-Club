@@ -20,7 +20,7 @@
 
 }
 
-button:focus {background-color:  rgb(52, 52, 57);}
+
 
 #kakapotab{
     background: url(../Images/Kakapo.jpg) no-repeat center; 
@@ -86,7 +86,7 @@ div img{
     background-color: rgb(34, 34, 42);
     margin: auto;
     padding: 2vh;
-    border: 1vh solid rgb(34, 34, 42);
+    border: 5vh white;
     width: 80%;
 }
 
@@ -96,4 +96,9 @@ div img{
     right:1%;
     background-color: rgb(34, 34, 42);
     box-shadow: 0.8vh 0.8vh  rgb(88, 88, 91);
+}
+
+img{
+    width:95%;
+    height:90%;
 }
