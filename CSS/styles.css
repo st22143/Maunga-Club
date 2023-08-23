@@ -1,17 +1,3 @@
-#main {
-    background: url(../Images/Cabin.jpg) no-repeat center;
-    background-size: cover;
-    padding: inherit;
-
-}
-
-
-
-#landscape {
-    background: url(../Images/MountainView.jpg) no-repeat center;
-    background-size: cover;
-    padding: inherit;
-}
 
 body{
     margin:0px;

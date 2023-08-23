@@ -3,3 +3,10 @@ div img{
     border:0.4vh solid white; 
 }
 
+#landscape {
+    background: url(../Images/MountainView.jpg) no-repeat center;
+    background-size: cover;
+    padding: inherit;
+}
+
+

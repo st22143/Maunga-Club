@@ -68,6 +68,12 @@ function openkereru() {
 
 document.addEventListener("DOMContentLoaded", function() { //Checks calls the following code if the website is loaded
     
+    document.getElementById("info_button").onclick = function(){
+        console.log("working");
+        document.getElementById("information_background").style.display = "block";
+    }
+    
+
     function switchImages(images) {
         let number = 0;
         var kakapoheadings = ["Cabin", "Hallway", "Bedroom"];
@@ -204,8 +210,13 @@ function pop_up(){
     document.getElementById("details").style.display = "block";
 }
 
-function testing(){
-    document.getElementById("details").style.display = "none";
+function exit(){
+
+    var details = document.getElementsByClassName("details");
+
+    for (var i = 0; i < details.length; i++) {
+        details[i].style.display = "none";
+    }
 }
 
 
@@ -214,7 +225,6 @@ $(document).ready(function() { //Fade in animation
     $(".logo").fadeIn();
     $("nav").fadeIn();
 });
-
 
 
 
