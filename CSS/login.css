@@ -5,64 +5,59 @@
     padding:inherit;
 }
 
-#details{
-    padding-top:50vh;
-    
-}
-
-form {
-    overflow: hidden;
-}
 
 label{
     color:white;
     float:left;
-    padding-right: 5vh;
-    width:30vh;
+    width:auto;
+    font-size: 3vh;
+    padding-right: 10vh;
 }
 
 input{
     float:left;
-    width:calc(100%-15vh);
-
+    width: auto;
 }
 
-button{
-    float:left;
-}
 
-#information{
-    height: 10vh;
-}
-
-.logo {
-    width: 400px;
-    height: 130px;
-    float:left;
-    padding: 3vh 3vh;
-
-}
-
-nav {
-    float:right;
-    padding:10vh 5vh;
-}
-
-li {
-    display: inline-block;
-}
-
-nav li a {
-    font-size: 6vh;
-    color: white;
-    padding: 3vh;
-    text-decoration: none;
-    
-}
-
-.heading {
-    color: white;
-    font-size: 7.5vh;
-    text-align: center;
+#timebox{
+    position: absolute;
     background-color: rgba(25, 25, 25, 0.518);
+    border: 0.4vh solid white;
+    width: 40%;
+    top:25%;
+    right:5%;
+}
+
+#timebox p{
+    font-size: 5vh;
+}
+
+#details{
+    padding-top: 3vh;
+    overflow: hidden;
+    margin:5%;
+}
+
+#details span{
+    font-size: 3vh;
+    float: left;
+    padding-left: 1vh;
+}
+
+.error{
+    color:red;
+}
+
+#submitted{
+    color: white
+}
+
+#details div{
+    padding-bottom: 10vh;
+}
+
+
+button {
+    float:left;
 }

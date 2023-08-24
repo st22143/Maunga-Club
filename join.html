@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="CSS/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="Javascript/scripts.js"> </script>
+    <script src="Javascript/join.js"> </script>
 
 </head>
     
@@ -25,7 +26,6 @@
                 <li> <a href="cabin.html"> Cabin </a> </li>
                 <li> <a href="view.html"> Gallery </a> </li>
                 <li> <a href="join.html"> Join Us </a> </li>
-        
     
             </nav> 
     
@@ -34,22 +34,64 @@
 
         <div id="details">
 
-            <form action="mailto:st22143@ormiston.school.nz">  <!-- Login details-->
+            <div>
 
-                <label for="name"> Name: </label>
-                <input type="text" id="name" name="name"><br><br>
+                <label for="name"> Name:  </label> 
+                <input type="text" id="name" name="name"> 
+                <span id="nameError" class="error"></span>
+                
+            </div>
+
+            <div>
+
+                <label for="email"> Email: </label>
+                <input type="email" id="email" name="email">
+
+            </div>
+
+            <div>
+
                 <label for="address"> Address: </label>
-                <input type="text" id="address" name="address"><br><br>
+                <input type="text" id="address" name="address">
+                
+            </div>
+
+            <div>
+
                 <label for="addressproof"> Proof Of Address:  </label>
-                <input type="file" id="addressproof" name="addressproof"><br><br>
+                <input type="file" id="addressproof" name="addressproof">
+                
+            </div>
+
+            <div>
+
                 <label for="idproof"> Proof Of ID:  </label>
-                <input type="file" id="idproof" name="idproof"><br><br><br>
+                <input type="file" id="idproof" name="idproof">
+                
+            </div>
+
+            <div>
+
                 <label for="information"> Extra information:  </label>
-                <input type="text" id="information" name="information"><br><br><br><br>
+                <input type="text" style="height:10vh;" name="information">
 
-                <input type="submit" value="Send">
+            </div>
 
-            </form>   
+            <div>
+
+                <button id="submit"> Submit </button>
+                <span id="submitted"> </span>
+
+            </div>
+
+           
+
+        </div>
+
+        <div id="timebox">
+
+            <p id="bookings"> Time until bookings end:</p>
+            <p id="time">  </p>
 
         </div>
 

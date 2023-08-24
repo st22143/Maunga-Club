@@ -91,7 +91,7 @@ div img{
     background-color: rgb(34, 34, 42);
     margin: auto;
     padding: 2vh;
-    border: 5vh white;
+    border: 0.4vh solid white;
     width: 80%;
 }
 

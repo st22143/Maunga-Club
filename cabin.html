@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="CSS/chalet.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="Javascript/scripts.js"> </script>
+    <script src="Javascript/cabin.js"> </script>
+    <script src="Javascript/scripts.js"></script> 
 
 </head>
     
@@ -52,13 +53,13 @@
 
         </div>
 
-        <button onclick="pop_up()" id="details_button"> Details </button>
+        <button id="details_button"> Details </button>
 
-        <div class="details">
+        <div id="details">
 
             <div id="content">
 
-                <span id="exit_details" onclick="testing()"> &times; </span> <!-- &times provides an exit sign-->
+                <span id="exit_details" onclick="exit()"> &times; </span> <!-- &times provides an exit sign-->
                 <p id="infotitle"> Kakapo </p>
                 <p id="infodetails"> 
                     Adults: 10 <br><br>

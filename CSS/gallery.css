@@ -9,4 +9,9 @@ div img{
     padding: inherit;
 }
 
+#pause {
+    position: fixed;
+    right:3%;
+    bottom:3%;
+}
 
