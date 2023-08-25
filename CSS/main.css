@@ -1,11 +1,10 @@
-#main {
+#main { /*Used for the background image*/
     background: url(../Images/Cabin.jpg) no-repeat center;
     background-size: cover;
     padding: inherit;
+} 
 
-}
-
-p{
+p{ /*All p elements will have the same size*/
     font-size: 3vh;
 }
 
@@ -38,4 +37,16 @@ p{
     right:1%;
 }
 
-li:hover {background-color:  rgba(25, 25, 25, 0.518)}
+li:hover{
+    background-color:  rgba(25, 25, 25, 0.518);
+}
+
+#subsection li:hover{
+    border:0.4vh solid white;
+    background-color:  rgba(25, 25, 25, 0.41);
+    
+}
+
+#info{
+    font-size:5vh;
+}

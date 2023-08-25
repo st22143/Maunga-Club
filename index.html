@@ -4,25 +4,25 @@
 
 <head>
 
-    <title> Maunga Club </title>
-    <link rel="stylesheet" href="CSS/styles.css">
-    <link rel="stylesheet" href="CSS/main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> <!-- Allows Jquery -->
-    <script src="Javascript/scripts.js"> </script>
+    <title> Maunga Club </title> <!-- The title-->
+    <link rel="stylesheet" href="CSS/styles.css"> <!-- 2 CSS files to keep everything more organised-->
+    <link rel="stylesheet" href="CSS/main.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> <!-- Allows Jquery for animations -->
+    <script src="Javascript/scripts.js"> </script> <!-- 2 Javascript files to keep everything more organised-->
     <script src="Javascript/main.js"> </script>
 
 </head>
     
-<body id="main">
+<body id="main"> <!-- An image will be placed in the background of this website-->
     
     <section>
         
-        <header> 
+        <header> <!-- The following will be placed on the top of the page to allow navigation between pages-->
     
             <a href="index.html"> <img src="Images/Title.png" class="logo"> </a>
         
             <nav>
-        
+                
                 <li> <a href="cabin.html"> Cabin </a> </li>
                 <li> <a href="view.html"> Gallery </a> </li>
                 <li> <a href="join.html"> Join Us </a> </li>
@@ -45,87 +45,91 @@
     
         </header>
 
-        <div id="details">
+        <section style="background-color:  rgba(25, 25, 25, 0.427);"> <!-- The following will all be present over the a transparent black background. I put the styles here since there isn't too much to type.-->
 
-            <div id="information">
+            <div id="details"> <!-- This popup will be invisible by default and will only be displayed when needed to-->
     
-                <span id="exit_details"> &times; </span>
-
-                <p> 
-                    <br>- The chalets can accomodate 6 to 40 people. <br><br> 
-                    - Bookings must be made from Friday to Sunday. <br><br>
-                    - Since the chalets are on the mountain, you will be able to ski from and to the chalets. <br><br>
-                    - The mountain gives 550 hectares (5.5 square kilometers) of skiing and snowboarding area.
+                <div id="information">
+        
+                    <span id="exit_details"> &times; </span> <!-- &times; provides a 'x' symbol-->
     
-                </p>
+                    <p id="info">  <!-- The following information is need to give information to the users-->
+                        <br>- The chalets can accomodate 6 to 40 people. <br><br> 
+                        - Bookings must be made from Friday to Sunday. <br><br>
+                        - Since the chalets are on the mountain, you will be able to ski from and to the chalets. <br><br>
+                        - The mountain gives 550 hectares (5.5 square kilometers) of skiing and snowboarding area.
+        
+                    </p>
+        
+                </div>
     
             </div>
-
-        </div>
-
-
-        <button id="info_button"> Testing </button>
-
-
-        <div class="headingbox"> <!-- Introduction/Individual Page Navigation-->
+    
+    
+    
+    
+            <div class="headingbox"> <!-- Introducing the users to the website-->
+                
+                <h1> Welcome To The <br> Maunga Club </h1>
+    
+            </div>
+    
+    
+    
+    
+            <section id="subsection">
+    
+                <li id="info_button"> 
+    
+                    <div class="subbox" id="informationframe"> <!-- About The Maunga Club-->
+        
+                        <h2 class="subheading"> Information </h2>
             
-            <h1> Welcome To The <br> Maunga Club </h1>
-
-        </div>
-
-
-
-
-        <section id="subsection">
-
-            <li> <div class="subbox" id="informationframe" onmouseenter="information_popup()" onmouseleave="undo_information()"> <!-- About The Maunga Club-->
+                        <p class="text"> Joining the Maunga Club comes with many benefits which can be shared among your family as well. 
+                            Come join us and have an amazing experience in the snow! </p>
+        
+                    </div>
     
-                <h2 class="subheading"> Information </h2>
+                </li> 
     
-                <p class="text"> Joining the Maunga Club comes with many benefits which can be shared among your family as well. 
-                    Come join us and have an amazing experience in the snow! </p>
+                <li> 
     
-            </div> </li> 
-
-            <li> <div class="subbox" id="skiingframe" onmouseenter="skiing_popup()" onmouseleave="undo_skiing()">
-
-                <h2 class="subheading"> Skiing </h2>
-
-                <p class="text"> There are many fun activities to choose from. A visitor's favourite is skiing across the ravishing 
-                    landscape filled with a cloudless sky and the whitest snow you'll ever come by. </p>
-
-            </div> </li>
-
-            <a href="cabin.html"> <li> <div class="subbox" id="cabinframe" onmouseenter="cabin_popup()" onmouseleave="undo_cabin()">
-
-                <h2 class="subheading"> Cabins </h2>
-
-                <p class="text"> Need a place to stay? Well if you join the Maunga Club you'll be given a variety of cabins to choose 
-                    from which best suits what you need. </p>
-
-            </div> </li> </a>
-
+                    <div class="subbox" id="skiingframe" > <!--Sends user to the gallery page-->
+    
+                        <h2 class="subheading"> Skiing </h2>
+    
+                        <p class="text"> There are many fun activities to choose from. A visitor's favourite is skiing across the ravishing 
+                            landscape filled with a cloudless sky and the whitest snow you'll ever come by. </p>
+    
+                    </div> 
+    
+                </li>
+    
+                <a href="cabin.html"> <!--Sends user to the cabins/chalets page-->
+    
+                    <li> 
+    
+                        <div class="subbox" id="cabinframe">
+    
+                        <h2 class="subheading"> Cabins </h2>
+    
+                        <p class="text"> Need a place to stay? Well if you join the Maunga Club you'll be given a variety of cabins to choose 
+                            from which best suits what you need. </p>
+    
+                        </div> 
+    
+                    </li> 
+                    
+                </a>
+    
+            </section>
+            
+    
         </section>
+    
+        
         
 
-    </section>
-
-    <section id="landscape"> <!-- Temporary background image-->
-
-        <div>
-
-            <p>
-
-                Testing
-
-            </p>
-
-        </div>
-
-
-    </section>
-
-    
 
 </body>
 

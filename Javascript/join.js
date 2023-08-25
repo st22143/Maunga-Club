@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function(){
+document.addEventListener("DOMContentLoaded", function(){ //The following only executes if the website is loaded.
 
     setInterval(function(){
         var date = new Date(); //Inbuilt date function

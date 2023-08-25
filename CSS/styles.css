@@ -12,30 +12,43 @@ body{
 
 }
 
-nav {
-    float:right;
-    padding:4vh 5vh;
-    display: none;
-    align-items: center;
+@media (max-width: 768px) {
+    .drop {
+        position: relative;
+        display: inline-block;
+    }
 }
+
+@media (min-width: 769px) {
+    nav {
+        float:right;
+        padding:4vh 5vh;
+        display: none;
+        align-items: center;
+    }    
+}
+
+nav {
+    display:none;
+}    
 
 li {
     display: inline-block;
     color:white;
-}
+}    
 
 nav li a {
     font-size: 4vh;
     color: white;
     padding: 3vh;
     text-decoration: none;
-}
+}    
 
 
 
 li{
     font-size: 5vh;
-}
+}    
 
 h1 {
     color: white;
@@ -44,50 +57,50 @@ h1 {
     background-color: rgba(25, 25, 25, 0.518);
     border-top:0.4vh solid white;
     border-bottom:0.4vh solid white;
-}
+}    
 
 .headingbox {
     padding-top: 50vh;
     padding-bottom: 50vh;
-}
+}    
 
 .subheading {
     color: white;
     font-size: 6vh;
     text-align: center;
-}
+}    
 
 .text {
     color: white;
     font-size: 3vh;
     text-align: center;
-}
+}    
 
 .subbox {
     width: 30vh;
     /*border:0.4vh solid white;
     background-color:  rgba(195, 195, 195, 0.518); */
     padding:10vh;
-}
+}    
 
 
 section {
     text-align: center;
-}
+}    
 
 #subsection {
     padding-bottom: 30vh;
-}
+}    
 
 p{
     color:white;
-}
+}    
 
 header{
     height:12.5vh;
     background-color: rgb(34, 34, 42);
     border-bottom:0.4vh solid white;
-}
+}    
 
 
 
@@ -97,21 +110,16 @@ button {
     padding: 16px;
     font-size: 16px;
     border: none;
-}
+}    
 
 button:hover {background-color: rgb(52, 52, 57);}
 button:focus {background-color: rgb(52, 52, 57);}
   
 .drop {
     display: none;
-}
+}    
 
-@media (max-width: 768px) {
-    .drop {
-        position: relative;
-        display: inline-block;
-    }
-}
+
 
     
 .content {
