@@ -13,5 +13,7 @@ div img{
     position: fixed;
     right:3%;
     bottom:3%;
+    box-shadow: 0.8vh 0.8vh  rgb(88, 88, 91);
 }
+
 

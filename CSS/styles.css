@@ -94,6 +94,7 @@ section {
 
 p{
     color:white;
+    text-align: center;
 }    
 
 header{
@@ -142,3 +143,26 @@ button:focus {background-color: rgb(52, 52, 57);}
     
 nav li:hover a{background-color: rgb(52, 52, 57);}
 
+footer{
+    background-color: rgba(0, 0, 0, 0.684); 
+    padding-left: 1vh;
+}
+
+.circle{
+    position: absolute; 
+    top:70%;
+    width: 15vh;
+    height: 15vh;
+    background-color: #0000006c;
+    border-radius: 50%;
+    border: 0.4vh solid rgba(255, 255, 255, 0.507)
+}
+.circle:hover{background-color: #000000da; border: 0.4vh solid white;} 
+.circle:hover .arrow{color:white;}
+
+.arrow{
+    font-size: 5vh;
+    font-weight: 800;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.507);
+}

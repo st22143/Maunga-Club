@@ -45,20 +45,38 @@
     
         </header>
 
-        <div id="tabbutton">
+        <div id="left" class="circle" style="left:10%;">
 
-            <button onclick="openkakapo()"> Kakapo </button>
-            <button onclick="openpukeko()"> Pukeko </button>
-            <button onclick="openkereru()"> Keruru </button>
+            <p class="arrow"> &LeftArrow; </p>
 
         </div>
 
-        <button id="details_button"> Details </button>
+        <div id="right" class="circle" style="right:10%;">
 
+            <p class="arrow"> &RightArrow; </p>
+
+        </div>
+
+        
+        <div id="tabbutton">
+            
+            <button id="openkakapo"> Kakapo </button>
+            <button id="openpukeko"> Pukeko </button>
+            <button id="openkereru"> Keruru </button>
+            
+        </div>
+        <div id="bottom_buttons">
+            
+            <button id="details_button"> Details </button>
+            
+            <button id="pause"> Pause </button>
+
+        </div>
+        
         <div id="details">
-
+            
             <div id="content">
-
+                
                 <span id="exit_details" onclick="exit()"> &times; </span> <!-- &times provides an exit sign-->
                 <p id="infotitle"> Kakapo </p>
                 <p id="infodetails"> 
@@ -156,7 +174,9 @@
         
     </section>
 
-    
+    <footer>
+        <p><small>&copy; Maunga Club 2023 - Website by Maunga Club</small></p>
+    </footer>
 
 </body>
 

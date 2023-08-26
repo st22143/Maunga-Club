@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function(){ //The following only e
             document.getElementById("bookings").innerHTML = "Time until bookings end";
             
             if(7-days <= 1){
-                var paragraphs = document.getElementsByTagName("p");
+                var paragraphs = document.querySelectorAll("#timebox p");
                 for (var i = 0; i < paragraphs.length; i++) {
                     paragraphs[i].style.color = "red";
                 }   

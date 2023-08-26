@@ -103,13 +103,17 @@ div img{
     right:1%;
 }
 
-#details_button{
+
+
+#bottom_buttons{
     position: fixed;
     bottom:2%;
-    right:1%;
+    right: 1%;
     background-color: rgb(34, 34, 42);
     box-shadow: 0.8vh 0.8vh  rgb(88, 88, 91);
 }
+
+
 
 img{
     width:95%;
