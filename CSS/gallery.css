@@ -16,4 +16,18 @@ div img{
     box-shadow: 0.8vh 0.8vh  rgb(88, 88, 91);
 }
 
+h2{
+    font-size:8vh;
+    color:white;
+}
 
+#heading_background{
+    position:absolute;
+    top:45%;   
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(25, 25, 25, 0.518);
+    padding:0 20vh;
+    border:0.4vh solid white;
+}

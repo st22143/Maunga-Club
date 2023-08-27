@@ -7,9 +7,17 @@ document.addEventListener("DOMContentLoaded", function(){
         document.getElementById("keruru"),
         document.getElementById("dark")
     ];
+
+    var headings = [
+        "Cabin",
+        "Kakapo",
+        "Pukeko",
+        "Keruru",
+        "View"
+    ]
     
-    var placeholder = 0;
-    var rotation; // Declare the interval variable outside the function
+    var placeholder = 0; //THe placeholder variable represents the number of rotations
+    var rotation; // Declare the interval variable outside the function to allow other functions to access them
     var switched = false;
     var clicked = false;
    
@@ -32,6 +40,7 @@ document.addEventListener("DOMContentLoaded", function(){
                 rotation = setInterval(function () {
                     gallery_images[placeholder].style.display = "none";
                     placeholder = (placeholder + 1) % gallery_images.length;
+                    document.getElementById("heading").innerHTML = headings[placeholder];
                     gallery_images[placeholder].style.display = "block";
                 }, 3000);
     
@@ -54,7 +63,9 @@ document.addEventListener("DOMContentLoaded", function(){
             if(switched == false){
                 gallery_images[placeholder].style.display = "none";
                 placeholder = (placeholder + 1) % gallery_images.length;
+                document.getElementById("heading").innerHTML = headings[placeholder];
                 gallery_images[placeholder].style.display = "block";
+
             }
         }, 3000);
     
@@ -66,14 +77,17 @@ document.addEventListener("DOMContentLoaded", function(){
     document.getElementById("left").onclick = function(){
 
         switched = true;
-        console.log("left");
+
         gallery_images[placeholder].style.display = "none";
         placeholder --;
-
+        console.log("left");
+        
         if (placeholder < 0){
             placeholder = 3;
         }
-
+        
+        document.getElementById("heading").innerHTML = headings[placeholder];
+        
         gallery_images[placeholder].style.display = "block";
 
         pause(false);
@@ -86,10 +100,12 @@ document.addEventListener("DOMContentLoaded", function(){
         gallery_images[placeholder].style.display = "none";
         placeholder ++;
         console.log("right", placeholder);
-
+        
         if (placeholder > gallery_images.length-1){
             placeholder = 0;
         }
+
+        document.getElementById("heading").innerHTML = headings[placeholder];
 
         gallery_images[placeholder].style.display = "block";
 

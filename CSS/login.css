@@ -6,21 +6,32 @@
 }
 
 
+#form{
+    display: none;
+    padding-top: 3vh;
+    overflow: hidden;
+    margin:5%;
+    text-align: left;
+}
+
 label{
     color:white;
-    float:left;
     width:auto;
-    font-size: 3vh;
-    padding-right: 10vh;
+    font-size: 25px;
+    padding-bottom: 2vh;
+    display: inline-block;
+    width: 20vh;
+    text-align: left;
 }
 
 input{
-    float:left;
     width: auto;
 }
 
 
+
 #timebox{
+    display: none;
     position: absolute;
     background-color: rgba(25, 25, 25, 0.518);
     border: 0.4vh solid white;
@@ -30,30 +41,21 @@ input{
 }
 
 #timebox p{
-    font-size: 5vh;
+    font-size: 40px;
 }
 
-#details{
-    padding-top: 3vh;
-    overflow: hidden;
-    margin:5%;
-}
 
-#details span{
-    font-size: 3vh;
-    float: left;
-    padding-left: 1vh;
-}
 
 .error{
-    color:red;
+    color:rgb(255, 53, 53);
+    font-size: 22px;
 }
 
 #submitted{
     color: white
 }
 
-#details div{
+#form div{
     padding-bottom: 10vh;
 }
 
@@ -61,3 +63,4 @@ input{
 button {
     float:left;
 }
+
