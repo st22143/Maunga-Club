@@ -1,3 +1,6 @@
+//The following code is very similar to the one shown in the gallery script however the cabins script must run 3 intervals simultaneously.
+//Feel free to look at the comments in the gallery code
+
 var currentChalet = "Kakapo";
 var clicked = false;
 var rotation;
@@ -130,9 +133,9 @@ document.addEventListener("DOMContentLoaded", function() { //Checks calls the fo
 
     
     document.getElementById("openkakapo").onclick = function() {
-        currentChalet == "Kakapo";
+        currentChalet == "Kakapo"; //Switches chalet to kakapo
         heading.innerHTML = kakapoheadings[number];
-        document.getElementById("kakapotab").style.display = "block";
+        document.getElementById("kakapotab").style.display = "block"; //Displays only the kakapo section
         document.getElementById("pukekotab").style.display = "none";
         document.getElementById("kerurutab").style.display = "none";
         document.getElementById("infotitle").textContent = "Kakapo";

@@ -38,6 +38,7 @@ input{
     width: 40%;
     top:25%;
     right:5%;
+    padding: 10px;
 }
 
 #timebox p{
@@ -52,7 +53,9 @@ input{
 }
 
 #submitted{
-    color: white
+    color: white;
+    padding-left: 1vh;
+    text-align: center;
 }
 
 #form div{

@@ -108,6 +108,7 @@ header{
     height:12.5vh;
     background-color: rgb(34, 34, 42);
     border-bottom:0.4vh solid white;
+    overflow: hidden;
 }    
 
 
