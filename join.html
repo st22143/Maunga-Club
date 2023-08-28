@@ -4,39 +4,53 @@
 
 <head>
 
-    <title> Join Us! </title>
-    <link rel="stylesheet" href="CSS/styles.css">
+    <title> Join Us! </title> <!-- Title -->
+    <link rel="stylesheet" href="CSS/styles.css"> <!-- Styles-->
     <link rel="stylesheet" href="CSS/login.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> <!--Scripts-->
     <script src="Javascript/scripts.js"> </script>
     <script src="Javascript/join.js"> </script>
 
 </head>
     
-<body id="background">
+<body id="background"> <!--Background image-->
     
     <section>
         
         <header> 
     
-            <a href="index.html"> <img src="Images/Title.png" class="logo"> </a>
+            <a href="index.html"> <img src="Images/Title.png" class="logo"> </a> <!-- Home Page Logo-->
     
-            <nav>
+            <nav> <!--Nav bar-->
     
-                <li> <a href="cabin.html"> Cabin </a> </li>
+                <li> <a href="cabin.html"> Cabin </a> </li>  <!-- Navigation buttons-->
                 <li> <a href="view.html"> Gallery </a> </li>
                 <li> <a href="join.html"> Join Us </a> </li>
+
+                <div class="drop"> <!-- Drop menu for mobile devices-->
+
+                    <button class="dropbtn"> Placeholder </button> 
+    
+                    <div class="content">
+    
+                        <a href="cabin.html"> Cabin </a> 
+                        <a href="view.html"> View </a> 
+                        <a href="join.html"> Join Us </a> 
+    
+                    </div>
+
+                </div>
     
             </nav> 
     
         </header>
 
 
-        <div id="form">
+        <div id="form"> <!-- Forms for submitting details. Details will be manipulated in join.js-->
 
             <div>
 
-                <label for="name"> Name:  </label> 
+                <label for="name"> Name:  </label> <!-- Name -->
                 <input type="text" id="name" name="name"> 
                 <span id="nameError" class="error"></span>
                 
@@ -44,42 +58,42 @@
 
             <div>
 
-                <label for="email"> Email: </label>
+                <label for="email"> Email: </label> <!-- Email -->
                 <input type="email" id="email" name="email">
 
             </div>
 
             <div>
 
-                <label for="address"> Address: </label>
+                <label for="address"> Address: </label> <!-- Address -->
                 <input type="text" id="address" name="address">
                 
             </div>
 
             <div>
 
-                <label for="addressproof"> Proof Of Address:  </label>
+                <label for="addressproof"> Proof Of Address:  </label> <!-- Proof Of Address -->
                 <input type="file" id="addressproof" name="addressproof">
                 
             </div>
 
             <div>
 
-                <label for="idproof"> Proof Of ID:  </label>
+                <label for="idproof"> Proof Of ID:  </label> <!-- Proof Of ID -->
                 <input type="file" id="idproof" name="idproof">
                 
             </div>
 
             <div>
 
-                <label for="information"> Extra information (optional):  </label>
+                <label for="information"> Extra information (optional):  </label> <!-- Extra Information -->
                 <input type="text" style="height:10vh;" name="information">
 
             </div>
 
             <div>
 
-                <button id="submit"> Submit </button>
+                <button id="submit"> Submit </button> <!-- Submit button-->
                 <span id="submitted"> </span>
 
             </div>
@@ -88,7 +102,7 @@
 
         </div>
 
-        <div id="timebox">
+        <div id="timebox"> <!-- Displays time until bookings start or end. This won't cause messages to not be sent-->
 
             <p id="bookings"> Time until bookings end:</p>
             <p id="time">  </p>
@@ -98,7 +112,7 @@
 
     </section>
 
-    
+    <!-- Footer for intellectual property -->
     <footer>
         <p> <small>&copy; Maunga Club 2023 - Website by Maunga Club</small> </p>
     </footer>

@@ -1,9 +1,11 @@
+/* All the HTML files will have the following styles: */
+
 body{
     margin:0px;
 }
 
 .logo {
-    width: 30vh;
+    width: 30vh; /* The logo will be placed on the right side of the screen */
     height: 10vh;
     float:left;
     padding: 2vh 3vh;
@@ -11,14 +13,14 @@ body{
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) { /* Only visible for mobile devices */
     .drop {
         position: relative;
         display: inline-block;
     }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 769px) { /* Only visible for computers or bigger devices */
     nav {
         float:right;
         padding:4vh 5vh;
@@ -27,17 +29,13 @@ body{
     }    
 }
 
-nav {
+nav { /*Displays none unless the scren size is greater than 769*/
     display: none;
 }    
 
-li {
-    
-    display: inline-block;
-    color:white;
-}    
 
-nav li a {
+
+nav li a { /*Makes the text white with a realitively small size which is proportional to the user's viewport */
     font-size: 4vh;
     color: white;
     padding: 3vh;
@@ -46,11 +44,13 @@ nav li a {
 
 
 
-li{
+li{ /* Font size can be adjusted my zooming in or out*/
     font-size: 40px;
+    display: inline-block;
+    color:white;
 }    
 
-h1 {
+h1 { /*Some CSS will display nothing until the jQuery makes it visible*/
     display: none;
     color: white;
     font-size: 75px;
@@ -66,27 +66,25 @@ h2{
 
 
 
-.headingbox {
+.headingbox { /* Added a tiny amount of padding for any headings of this class*/
     padding-top: 30vh;
     padding-bottom: 15vh;
 }    
 
-.subheading {
+.subheading { /* Subheadings will have the following properties. Typically used in the cabins and gallery page.*/
     color: white;
     font-size: 40px;
     text-align: center;
 }    
 
-.text {
+.text { /* Elements of this class will have the following properties: */
     color: white;
     font-size: 30px;
     text-align: center;
 }    
 
-.subbox {
+.subbox { /* Gave the subboxes a fixed width */
     width: 30vh;
-    /*border:0.4vh solid white;
-    background-color:  rgba(195, 195, 195, 0.518); */
     padding:10vh;
 }    
 
@@ -95,7 +93,7 @@ section {
     text-align: center;
 }    
 
-#subsection {
+#subsection { /*Creating space at the bottom*/
     padding-bottom: 30vh;
 }    
 
@@ -104,7 +102,7 @@ p{
     text-align: center;
 }    
 
-header{
+header{ /*The nav bar will have the following properties: */
     height:12.5vh;
     background-color: rgb(34, 34, 42);
     border-bottom:0.4vh solid white;
@@ -113,7 +111,7 @@ header{
 
 
 
-button {
+button { /* Opacity is 0 which causes the element to be fully transparent. JQuery will reduce the transparency by increasing the opacity. */
     opacity: 0;
     color: white;
     background-color: rgb(34, 34, 42);
@@ -122,8 +120,8 @@ button {
     border: none;
 }    
 
-button:hover {background-color: rgb(52, 52, 57);}
-button:focus {background-color: rgb(52, 52, 57);}
+button:hover {background-color: rgb(52, 52, 57);} /*On hover the background colour of buttons turn greyish*/
+button:focus {background-color: rgb(52, 52, 57);} /*On click the background colour of buttons turn greyish*/
   
 .drop {
     display: none;
@@ -132,7 +130,7 @@ button:focus {background-color: rgb(52, 52, 57);}
 
 
     
-.content {
+.content { /*Elements of the class content will be invisible until a script makes it visible */
     display: none;
     position: absolute;
     background-color: rgb(34, 34, 42);
@@ -152,12 +150,12 @@ button:focus {background-color: rgb(52, 52, 57);}
     
 nav li:hover a{background-color: rgb(52, 52, 57);}
 
-footer{
+footer{ /*Footer for intellectual properties*/
     background-color: rgba(0, 0, 0, 0.684); 
     padding-left: 1vh;
 }
 
-.circle{
+.circle{ /* Creating a circular shape/border */
     position: absolute; 
     top:70%;
     width: 15vh;
@@ -169,13 +167,13 @@ footer{
 .circle:hover{background-color: #000000da; border: 0.4vh solid white;} 
 .circle:hover .arrow{color:white;}
 
-.arrow{
+.arrow{ /*This will be used for my arrow texts*/
     font-size: 5vh;
     font-weight: 800;
     text-align: center;
     color: rgba(255, 255, 255, 0.507);
 }
 
-img:focus{
+img:focus{ /*Those annoying blue highlights will no longer show up when images are excessively clicked */
     outline: none;
 }
